@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chai@Chaska</title>
+    <link rel="stylesheet" href="main.css" />
+    <link
+      rel="shortcut icon"
+      href="images/favicon_io/favicon.ico"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <div class="bg">
+      <header>
+        <div class="container">
+          <div class="logo">
+            <img src="images/logo.jpeg" alt="LOGO" width="200px" />
+          </div>
+          <div class="bar">
+            <nav class="nav">
+              <ul class="navbar">
+                <li class="list"><a href="home.html">HOME</a></li>
+                <li class="list"><a href="about.html">ABOUT</a></li>
+                <li class="list"><a href="menu.html">MENU</a></li>
+                <li class="list"><a href="contact.html">CONTACT</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </header>
+      <main>
+        <div class="mcontainer">
+          <div class="quote">
+            <div id="quote">loading</div>
+          </div>
+          <div class="intro">
+            <div class="cafeintro">
+              <p>A true Italian cafe....</p>
+            </div>
+            <div class="qconst">
+              <h1>discover the taste of real coffee</h1>
+            </div>
+          </div>
+        </div>
+        <div class="belowinfo">
+          <div class="img2">
+            <img
+              src="images/beans.webp"
+              alt="beans"
+              width="200px"
+              height="300px"
+            />
+          </div>
+          <div class="info2">
+            <div class="heading2">A true coffee bean</div>
+            <hr />
+            <div class="text2">
+              A good is not always because of good mixer but because of its
+              beans
+            </div>
+          </div>
+        </div>
+        <div class="belowinfo3">
+          <div class="info3">
+            <div class="heading3">Coffee Lagacy</div>
+            <hr />
+            <div class="text3">
+              The legacy of coffee spans centuries, intertwining with cultures
+              worldwide as a symbol of social interaction and stimulation. Its
+              journey from ancient Ethiopian highlands to global prominence has
+              left an indelible mark on economies and societies.
+            </div>
+          </div>
+          <div class="img3">
+            <img src="images/legacy.jpg" alt="beans" />
+          </div>
+        </div>
+        <div class="location">
+          <div class="map">
+            <iframe
+              class="LOP"
+              src="https://www.google.com/maps/d/embed?mid=1GMkXrW9wFrCvobF7hqwZZ0DQk_u495w&ehbc=2E312F"
+            ></iframe>
+          </div>
+          <div class="mapname">
+            <div class="address">Our Locations</div>
+            <hr />
+            <div class="maplist">
+              <ul>
+                <li class="list2">Katraj</li>
+                <li class="list2">Kharadi</li>
+                <li class="list2">Hadapsar</li>
+                <li class="list2">KP</li>
+                <li class="list2">Swargate</li>
+                <li class="list2">ETC</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+    <footer>
+      <div class="footercontainer">
+        <div class="address">
+          <p class="spfoot">ADDRESS</p>
+          <p>Wadia st, near Bungarden Pune 411096,India</p>
+        </div>
+        <div class="email">
+          <p class="spfoot">EMAIL</p>
+          <p>dumy123@gmail.com</p>
+          <p>dummy12345@gmail.com</p>
+        </div>
+        <div class="contact">
+          <p class="spfoot">CONTACT</p>
+          <p>+91-0987654321</p>
+          <p>+91-9823104743</p>
+        </div>
+        <div class="openhours">
+          <p class="spfoot">OPEN-HOURS</p>
+          <p>Monday-Friday:8:00am-9:00pm</p>
+          <p>saturday:9:00am-8:00pm</p>
+        </div>
+      </div>
+      <hr />
+      <div class="end">
+        <p>© 2024 BY SIDCOP | ALL RIGHTS RESERVED</p>
+      </div>
+    </footer>
+    <script>
+      const quote = document.getElementById("quote");
+      const api_url =
+        "https://api.quotable.io/random?maxLength=30/tags=technology";
+      async function getquote(url) {
+        const responce = await fetch(url);
+        var data = await responce.json();
+        quote.innerHTML = data.content;
+      }
+      getquote(api_url);
+    </script>
+  </body>
+</html>

@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Scribble&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+* {
+    padding: 0;
+}
+
+body {
+    background-image: url(https://imgs.search.brave.com/6CCBrcEyNEknuSKWmCfmJhuB9Lg-bZHIcDtgNRXPGaM/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/ZnJlZS1waG90by9j/b3p5LWhvbWUtaW50/ZXJpb3ItYW5pbWUt/c3R5bGVfMjMtMjE1/MTE3NjM0Mi5qcGc_/c2l6ZT02MjYmZXh0/PWpwZw);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+}
+
+.box {
+    margin-top: 150px;
+    width: 50vw;
+    height: 70vh;
+    margin-left: 400px;
+    backdrop-filter: blur(10px);
+    background-blend-mode: overlay;
+}
+
+label {
+    color: #f6f6f6;
+}
+
+.t {
+    margin-left: 250px;
+    padding-top: 110px;
+
+}
+
+.t h1 {
+    color: #ffffff;
+    padding: 5px;
+}
+
+.inbox {
+    height: 30px;
+    width: 300px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: justify;
+    border-radius: 20px;
+    background: transparent;
+}
+
+.inbox1 {
+    height: 30px;
+    width: 300px;
+    text-align: justify;
+    text-wrap: pretty;
+    border-radius: 20px;
+    background: transparent;
+}
+
+#submit {
+    height: 25px;
+    width: 100px;
+    background: #40d483;
+    margin-top: 5px;
+    border-radius: 15px;
+}
+
+.rem p {
+    color: #ffffff;
+    margin: 0;
+    padding: 5px;
+}
+
+.rem {
+    display: inline-flex;
+    margin: 0;
+}
+
+.reg {
+    display: inline;
+    padding-left: 10px;
+
+}
+
+#a1 {
+    color: #ffffff;
+    margin-left: 100px;
+
+}
+
+#checkbox {
+    padding-right: 40px;
+
+}
+
+#p1 {
+    text-align: left;
+}
+
+#p2 {
+    text-decoration: none;
+    text-align: right;
+}
+
+.box .t h1 {
+    width: 280px;
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: "Playfair Display", serif;
+    font-size: 40px;
+
+}
+
+.box .t input {
+    margin-bottom: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}

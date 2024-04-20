@@ -1,0 +1,532 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.bg {
+    background-image: url(images/coffeebg.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100vw 585px;
+}
+
+header {
+    height: 15vh;
+    width: 100vw;
+    background: transparent;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo img {
+    margin-top: 20px;
+    margin-bottom: 0px;
+    margin-left: 70px;
+    width: 150px;
+    height: 150px;
+}
+
+.bar {
+    width: 400px;
+    margin: 40px 30px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 70px;
+}
+
+.navbar .list a {
+    font-family: "Playfair Display", serif;
+    text-decoration: none;
+    list-style-type: none;
+    color: whitesmoke;
+    font-size: 1.2em;
+}
+
+.navbar .list {
+    list-style-type: none;
+    padding: 0 30px;
+}
+
+
+.navbar .list a:hover {
+    font-family: "Playfair Display", serif;
+    text-decoration: none;
+    color: #e68541;
+}
+
+
+.mcontainer {
+    width: 100vw;
+    min-height: 65vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.quote {
+    margin: 80px 40px;
+    width: 400px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    padding-left: 30px;
+    font-size: 1rem;
+    color: #e68541;
+    font-size: 2em;
+    font-family: "Playfair Display", serif;
+
+}
+
+.intro {
+    margin: 40px;
+    text-align: center;
+    padding-top: 55px;
+    width: 400px;
+
+}
+
+.intro .qconst {
+    color: aliceblue;
+    font-family: "DM Serif Display", serif;
+    font-size: 2rem;
+}
+
+.intro .cafeintro {
+    color: #e68541;
+}
+
+.belowinfo {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 100px;
+}
+
+.img2 {
+    width: 200px;
+    height: 300px;
+    margin: 30px;
+    box-shadow: -4px 4px rgb(255, 163, 163);
+
+}
+
+.info2 {
+    height: 250px;
+    width: 300px;
+    margin: 30px;
+
+}
+
+.info2 .heading2 {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 2em;
+    padding-top: 40px;
+    font-family: "Playfair Display", serif;
+
+}
+
+.info2 .text2 {
+    text-align: center;
+    font-size: 16px;
+    margin: 15px;
+}
+
+.belowinfo3 {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 100px;
+}
+
+.img3 {
+    width: 700px;
+    height: 400px;
+    margin: 30px;
+    box-shadow: -4px 4px rgb(255, 163, 163);
+}
+
+.img3 img {
+    width: 700px;
+    height: 400px;
+}
+
+.info3 {
+    height: 250px;
+    width: 300px;
+    margin: 30px;
+
+}
+
+.info3 .heading3 {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 2em;
+    padding-top: 40px;
+    font-family: "Playfair Display", serif;
+
+}
+
+.info3 .text3 {
+    text-align: center;
+    font-size: 16px;
+    margin: 15px;
+}
+
+.location {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 100px;
+}
+
+.mapname {
+    height: 300px;
+    width: 400px;
+    margin: 30px;
+    padding: 20px;
+}
+
+.mapname .maplist ul .list2 {
+    list-style-type: none;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.mapname .address {
+    text-align: center;
+    font-size: 2em;
+    font-family: "Playfair Display", serif;
+    padding-bottom: 20px;
+
+}
+
+.map {
+    width: 649px;
+    height: 450px;
+    margin: 30px
+}
+
+.map .LOP {
+    width: 649px;
+    height: 450px;
+}
+
+footer {
+    background: #000;
+    color: aliceblue;
+    width: 100vw;
+    height: 20vh;
+    margin: 0;
+    overflow: hidden;
+}
+
+.footercontainer {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+
+}
+
+
+.footercontainer .spfoot {
+    margin: 5px 0;
+    color: #e68541;
+    font-family: "Playfair Display", serif;
+
+}
+
+.end {
+    margin: 15px 10px;
+    text-align: center;
+}
+
+/* kkl */
+.header1 {
+    height: 15vh;
+    width: 100vw;
+    background: #000000;
+    overflow: hidden;
+}
+
+
+
+.container1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bar1 {
+    width: 400px;
+    margin: 40px 30px;
+    text-align: end;
+    width: 540px;
+    position: absolute;
+    left: 950px;
+}
+
+.navbar1 {
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 70px;
+}
+
+.navbar1 .list1 a {
+    font-family: "Playfair Display", serif;
+    text-decoration: none;
+    list-style-type: none;
+    color: whitesmoke;
+    font-size: 1.2em;
+}
+
+.navbar1 .list1 {
+    list-style-type: none;
+    padding: 0 30px;
+}
+
+
+.navbar1 .list1 a:hover {
+    font-family: "Playfair Display", serif;
+    text-decoration: none;
+    color: #e68541;
+}
+
+.hisab {
+    width: 100vw;
+    height: 25rem;
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 0;
+}
+
+.col {
+    width: 800px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.imgab {
+    position: relative;
+    margin: 0 -30px;
+    z-index: 1;
+}
+
+.imgab img {
+    width: 300px;
+    height: 400px;
+    box-shadow: 0px 6px 20px #e68541;
+    border: 10px solid #fffbf8;
+
+}
+
+.imgab:hover {
+    transform: translateY(-20px);
+    z-index: 2;
+}
+
+.imgab:hover img {
+    box-shadow: 0px 8px 30px white;
+}
+
+.infoab {
+    width: 550px;
+    height: 400px;
+    text-align: center;
+    padding: 10px 20px;
+}
+
+.infoab h1 {
+    font-family: "Playfair Display", serif;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-align: center;
+
+}
+
+.infoab p {
+    margin-top: 15px;
+}
+
+.review {
+    width: 100%;
+    height: 45vh;
+    margin: 50px 0;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+video {
+    height: 270px;
+    width: auto;
+    margin: 20px 0;
+    border: 10px solid #e68541;
+}
+
+.ri {
+    text-align: center;
+}
+
+.ri h1 {
+    margin: 10px;
+    font-family: "Playfair Display", serif;
+}
+
+.ri h2 {
+    margin: 10px;
+}
+
+.po {
+    position: relative;
+    top: 100px;
+}
+
+.boxmu {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.menuu {
+    width: 70vw;
+    height: 900px;
+}
+
+table {
+    margin: 30px 10px;
+}
+
+tr td {
+    padding: 10px;
+}
+
+.tdd {
+    font-size: large;
+    font-family: "Playfair Display", serif;
+    color: #e68541;
+}
+
+.imgmu img {
+    width: auto;
+    height: 250px;
+    margin: 30px 0;
+    border: 5px solid #e68541;
+    transform: scale(1.25);
+
+}
+
+.imgmu .img11 {
+    position: relative;
+    transform: rotate(0.02);
+}
+
+.imgmu .img22 {
+    position: relative;
+    right: 400px;
+    transform: rotate(0.02);
+}
+
+.imgmu .img33 {
+    position: relative;
+    transform: rotate(2 turns);
+}
+
+.coco h2 {
+    color: #fffbf8;
+    background: #e68541;
+    font-family: "Playfair Display", serif;
+}
+
+.connect {
+    height: auto;
+    width: 900px;
+    text-align: center;
+    margin: 50px 0;
+}
+
+.connect h1 {
+    color: #e68541;
+    margin-bottom: 8px;
+    padding-top: 8px;
+    font-family: "Poppins", Helvetica, Arial, sans-serif;
+}
+
+.connect h3 {
+    color: #e68541;
+    margin-bottom: 20px;
+    padding-top: 6px;
+}
+
+.cccc {
+    display: flex;
+    justify-content: space-between;
+}
+
+.inputt {
+    margin: 15px 30px;
+    width: 350px;
+    height: 40px;
+    border-radius: 15px;
+    padding: 10px;
+    color: #e68541;
+}
+
+#subject {
+
+    margin: 15px 30px;
+    width: 790px;
+    height: 40px;
+    border-radius: 15px;
+    padding: 10px;
+    color: #e68541;
+    margin-right: 19px;
+}
+
+#message {
+    margin: 15px 30px;
+    width: 790px;
+    height: 100px;
+    border-radius: 15px;
+    padding: 10px;
+    color: #e68541;
+    margin-right: 19px;
+}
+
+#btbt {
+    background: #e68541;
+    margin: 20px;
+    position: relative;
+    width: 820px;
+    height: 40px;
+    border-radius: 30px;
+}
+
+.imgco img {
+    height: 400px;
+    width: auto;
+    margin: 30px;
+    border-radius: 20px;
+    box-shadow: 10px 8px 9px #e68541;
+}
+
+.imgco #im1 {
+    position: relative;
+    right: 200px;
+}
+
+.imgco #im2 {
+    position: relative;
+    right: 90px;
+}
